@@ -10,3 +10,7 @@ Hi, I'm Fernando L. Canizo, an old software developer with too many pet peeves.
 I'm a parent of three beautiful offsprings.
 I like to take care of my garden on my free time and I'm also a decent carpenter.
 While I have been programming since 1994, I consider myself a #juniordevforlife.
+
+...
+
+I'm also a gamer, I spend much time getting dopamine, so this wanna-be software technical blog may turn into a game review site :P
