@@ -1,3 +1,31 @@
+body {
+  margin: 0 auto;
+}
+
+main,
+footer {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Make it one line until screen gets truly tiny */
+  flex-wrap: nowrap;
+
+  /* Optional: keeps it centered nicely against new.css defaults */
+  padding: 1rem;
+	margin: 0;
+	max-width: none;
+  width: 100%;
+  box-sizing: border-box; /* padding doesn’t shrink the usable width */
+}
+
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
@@ -57,9 +85,10 @@ pre:not([class*="language-"]) {
 }
 
 .home-link {
-	flex-grow: 1;
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
+  flex-grow: 0;
+  margin-right: auto; /* pushes nav to the right */
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .home-link:link:not(:hover) {
@@ -153,4 +182,3 @@ pre:not([class*="language-"]) {
 .nav-item {
   display: inline-block;
 }
-
