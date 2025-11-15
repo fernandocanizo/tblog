@@ -138,3 +138,14 @@ pre:not([class*="language-"]) {
 	margin-right: 1em;
 }
 
+.nav {
+  display: flex;
+  gap: .5em 1em;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav-item {
+  display: inline-block;
+}
+
