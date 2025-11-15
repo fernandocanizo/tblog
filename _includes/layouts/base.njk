@@ -29,6 +29,11 @@
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
 
+		{# Add new.css Terminal theme #}
+		<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+		<link rel="stylesheet" href="https://newcss.net/theme/terminal.css">
+
 		{#- Render the CSS bundle using inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>
 
