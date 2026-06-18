@@ -24,7 +24,7 @@ _Optional:_ Review `eleventy.config.js` and `_data/metadata.js` to configure the
 3. Install dependencies
 
 ```
-npm install
+pnpm install
 ```
 
 4. Run Eleventy

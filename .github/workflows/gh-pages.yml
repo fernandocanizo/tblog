@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     concurrency:
@@ -22,14 +22,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: '26'
+          cache: 'pnpm'
 
-      - name: Cache npm
+      - name: Cache pnpm
         uses: actions/cache@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Cache Eleventy .cache
         uses: actions/cache@v4
@@ -38,8 +38,8 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
 
-      - run: npm install
-      - run: npm run build-ghpages
+      - run: pnpm install
+      - run: pnpm run build-ghpages
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
