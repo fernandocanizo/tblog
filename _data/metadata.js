@@ -1,6 +1,6 @@
 export default {
 	title: "Fernando L. Canizo's Technical Journey",
-	url: "https://tblog.github.io/",
+	url: "https://fernandocanizo.github.io/tblog/",
 	language: "en",
 	description: "Just another software developer's unrequested stories.",
 	author: {
