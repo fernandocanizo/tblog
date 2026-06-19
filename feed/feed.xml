@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Blog Title</title>
   <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/feed/feed.xml" rel="self" />
-  <link href="https://example.com/" />
+  <link href="https://fernandocanizo.github.io/tblog/feed/feed.xml" rel="self" />
+  <link href="https://fernandocanizo.github.io/tblog/tblog/" />
   <updated>2025-11-15T00:00:00Z</updated>
-  <id>https://example.com/</id>
+  <id>https://fernandocanizo.github.io/tblog/tblog/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
     <title>Motivation</title>
-    <link href="https://example.com/blog/2025.11.15-12.43.59,motivation/" />
+    <link href="https://fernandocanizo.github.io/tblog/blog/2025.11.15-12.43.59,motivation/" />
     <updated>2025-11-15T00:00:00Z</updated>
-    <id>https://example.com/blog/2025.11.15-12.43.59,motivation/</id>
+    <id>https://fernandocanizo.github.io/tblog/blog/2025.11.15-12.43.59,motivation/</id>
     <content type="html">&lt;p&gt;I&#39;ve created several blogs in the past, they all had a short life span. I think it was due to the fact that I started them by the wrong reasons.&lt;/p&gt;
 &lt;p&gt;This blog pretends to be a log of the things I try and forget, the technical decisions I make. A way to remind myself about certain things.&lt;/p&gt;
 &lt;p&gt;So I&#39;m hoping this time this blog will last and be a source of continuous reference for me.&lt;/p&gt;
